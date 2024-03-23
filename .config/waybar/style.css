@@ -48,7 +48,7 @@ button:hover {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #eb3633;
 }
 
 #pulseaudio,
@@ -68,6 +68,8 @@ button:hover {
     padding-right: 8px;
 }
 
+ 
+
 
 #clock {
     color: #f5f5dc;
@@ -77,6 +79,14 @@ button:hover {
 #clock.date {
     color: @mauve;
     border-bottom: 2px solid @mauve;
+}
+
+#cpu {
+    border-bottom: 2px solid rgb(202, 113, 202);
+}
+
+#memory {
+    border-bottom: 2px solid lightcoral;
 }
 
 #pulseaudio {
