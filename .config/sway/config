@@ -145,8 +145,8 @@ exec $HOME/.config/hypr/swww_set_wallpaper.sh
 
     # Or use $mainMod+[up|down|left|right]
     # bindsym $mainMod+Left focus left
-    bindsym $mainMod+Down focus down
-    bindsym $mainMod+Up focus up
+    # bindsym $mainMod+Down focus down
+    # bindsym $mainMod+Up focus up
     # bindsym $mainMod+Right focus right
 
 
@@ -192,6 +192,8 @@ exec $HOME/.config/hypr/swww_set_wallpaper.sh
     # Cycle through workspaces
     bindsym $mainMod+Left workspace prev_on_output
     bindsym $mainMod+Right workspace next_on_output
+    bindsym $mainMod+Up workspace prev_on_output
+    bindsym $mainMod+Down workspace next_on_output
 #
 # Layout stuff:
 #
