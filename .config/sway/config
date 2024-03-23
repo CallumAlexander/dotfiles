@@ -256,7 +256,7 @@ bindsym $mainMod+r mode "resize"
 
 
 smart_borders on
-default_border none
+default_border pixel 3
 
 
 include /etc/sway/config.d/*

@@ -6,6 +6,9 @@
     "hyprland/window": {
         "max-length": 50
     },
+    "sway/window": {
+        "max-length": 50
+    },
     "sway/mode": {
         "format": "{title}",
         "max-length": 50
@@ -28,8 +31,8 @@
         "format": "{}% RAM"
     },
     "clock": {
-        "format": "{:%a, %d %b  %H:%M}",
-        "format-alt": "{:%A, %d %B  %I:%M %p}"
+        "format": "{:    %a, %d %b  󰥔   %H:%M}",
+        "format-alt": "{:    %A, %d %B  󰥔   %I:%M %p}"
     },
     "tray": {
         "spacing": 10
