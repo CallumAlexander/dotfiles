@@ -144,6 +144,16 @@ button:hover {
 
 }
 
+#battery.warning {
+    background-color: red;
+    border-bottom: 2px solid orange;
+}
+
+#battery.critical {
+    background-color: red;
+    border-bottom: 2px solid blue;
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left>widget:first-child>#workspaces {
     margin-left: 0;
