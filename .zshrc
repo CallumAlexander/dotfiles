@@ -115,6 +115,10 @@ alias e="exit"
 alias nvim-config="vim ~/.config/nvim/init.lua"
 alias exa="exa -l"
 
+# Change kitty colour schemes
+alias tlight="kitty +kitten themes --reload-in=all Atom One Light"
+alias tlight="kitty +kitten themes --reload-in=all Atom One Light"
+
 # Arch-based system update
 alias newstuff="sudo pacman -Syu --noconfirm; yay -Syu --noconfirm"
 
