@@ -117,7 +117,7 @@ alias exa="exa -l"
 
 # Change kitty colour schemes
 alias tlight="kitty +kitten themes --reload-in=all Atom One Light"
-alias tlight="kitty +kitten themes --reload-in=all Atom One Light"
+alias tdark="kitty +kitten themes --reload-in=all One Dark"
 
 # Arch-based system update
 alias newstuff="sudo pacman -Syu --noconfirm; yay -Syu --noconfirm"

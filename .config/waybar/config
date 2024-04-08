@@ -36,7 +36,7 @@
         "format-alt": "{}% RAM"
     },
     "clock": {
-        "format": "{:    %a, %d %b  󰥔   %H:%M}",
+        "format": "{:%a, %d %b  %H:%M}",
         "format-alt": "{:    %A, %d %B  󰥔   %I:%M %p}"
     },
     "tray": {
