@@ -50,7 +50,8 @@ exec waybar
 exec blueman-applet
 exec nm-applet --indicator
 exec hypridle
-exec redshift-gtk
+exec gammastep-indicator
+# exec redshift-gtk
 exec protonmail-bridge --no-window
 exec $HOME/.config/hypr/swww_set_wallpaper.sh
 
@@ -255,6 +256,8 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mainMod+r mode "resize"
+
+for_window [class="Tor Browser" instance="Navigator"] floating enable
 
 
 smart_borders on

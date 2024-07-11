@@ -30,11 +30,11 @@ button {
 button:hover {
     background: inherit;
     border-top: 2px solid lightcoral;
-    color: lightcoral;
 }
 
 #workspaces button {
     padding: 0 4px;
+    color: white;
 }
 
 #workspaces button.active {
