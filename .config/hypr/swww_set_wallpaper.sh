@@ -1,17 +1,21 @@
 #!/bin/bash
 
-DIR=$HOME/Pictures/Wallpapers
+BASE_DIR=$HOME/Pictures/Wallpapers
 
-echo $DIR
+MODE=$(darkman get)
+
+DIR="$BASE_DIR/$MODE"
+
+# echo "Current mode: $MODE"
+# echo "Wallpaper directory: $DIR"
 
 PICS=("$DIR"/*)
 
-#echo "$PICS"
-
-RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
+RANDOMPICS=${PICS[$RANDOM % ${#PICS[@]}]}
 
 swww query || swww init
 
-echo Setting ${RANDOMPICS}
+echo "Setting wallpaper: ${RANDOMPICS}"
 
-swww img ${RANDOMPICS} --transition-fps 30 --transition-type any --transition-duration 3
+swww img "${RANDOMPICS}" --transition-fps 30 --transition-type any --transition-duration 3
+
