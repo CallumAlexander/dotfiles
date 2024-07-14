@@ -112,6 +112,7 @@ alias vim="nvim"
 alias c="clear"
 alias ccd="cd ~; clear"
 alias e="exit"
+alias q="exit"
 alias nvim-config="vim ~/.config/nvim/init.lua"
 alias exa="exa -l"
 
