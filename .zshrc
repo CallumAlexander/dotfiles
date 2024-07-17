@@ -9,13 +9,13 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="agnoster"
-ZSH_THEME="random"
+ZSH_THEME="duellj"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "apple" "aussiegeek" "awesomepanda" "bira" "crunch" "dallas" "darkblood" "duellj" "fino-time" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "apple" "aussiegeek" "awesomepanda" "bira" "crunch" "dallas" "darkblood" "duellj" "fino-time" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -75,6 +75,7 @@ plugins=(
 				git
 				zsh-autosuggestions
 				zsh-syntax-highlighting
+        zsh-vi-mode
 )
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan,underline"
@@ -124,7 +125,7 @@ alias tdark="kitty +kitten themes --reload-in=all Catppuccin-Mocha"
 alias newstuff="sudo pacman -Syu --noconfirm; yay -Syu --noconfirm"
 
 # Run colorscript
-colorscript random
+# colorscript random
 
 export PATH=$PATH:/home/tctb/.local/bin/
 
@@ -153,3 +154,4 @@ if [ -f "/home/tctb/miniforge3/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda initialize <<<
 
+# bindkey -v
